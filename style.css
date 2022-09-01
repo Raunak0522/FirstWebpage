@@ -1,0 +1,62 @@
+html{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header>h1{
+    font-weight: 101;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    margin: 0rem 2rem;
+}
+
+li{
+    list-style:none;
+    font-size: 1.5rem;
+
+}
+a{
+    text-decoration: none; 
+}
+nav li a:hover{
+    color:white;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;/* after width allocation it works in nav*/
+}
+nav{
+    width: 25rem; /*navigation doesn't have any extra space */
+    position: relative;/*it allows to move elements from default position*/
+    top: 1rem;
+}
+.showcase{
+    width: 95vw;/*view width responsive unit*/
+    margin: 1rem;
+}
+article{
+    display: flex;
+}
+.c1{
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.footer{
+     background-color:black;
+     color: white;
+     justify-content: center;
+     display: flex;
+     height: 3rem;
+     font-size: 1.5rem;
+     align-items: center;
+}
